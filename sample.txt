@@ -1,0 +1,12 @@
+
+exit
+close
+answer
+stop
+please
+quit
+help
+--help
+close sample.txt
+testing once more
+one last test
