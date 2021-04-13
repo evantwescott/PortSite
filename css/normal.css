@@ -4,7 +4,7 @@
         grid: "header header" 3em
               "nav nav      " 3em
               "aside main   " 1fr
-              "footer footer" 3em/
+              "footer footer" 4em/
               minmax(10em, 1fr) 3fr;
 
     }
