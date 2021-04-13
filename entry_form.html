@@ -7,9 +7,16 @@
     <title>Into the Breach | New Form</title>
 </head>
 <body>
-   <form action="">
-       <input name="q" type="text">
-       <input type="submit">
+    <h1>Contact Me</h1>
+   <form action="entry_form.html" method="POST">
+       <input type="hidden" name = "source" value="ContactForm">
+       Your Name: <input name="Full Name" type="text"><br/>
+       Your Email: <input name="EmailAddress" type="email"><br/>
+       Your Phone: <input type="phone" name="" id=""><br/>
+       Other Feedback:<textarea name="Feedback" id="" cols="30" rows="10"></textarea>
+       Date: <input type="date" name="" id="">
+       
+       <input type="submit" value="Submit">
     </form> 
 </body>
 </html>
