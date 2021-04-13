@@ -1,0 +1,25 @@
+html, body{
+    height: 100%;
+    margin: 0%;
+}
+
+body{
+    display: grid;
+    grid: "header" 2em
+          "nav" 2em
+          "main" 2fr
+          "aside" .5fr
+          "footer" 2em/
+          1fr;
+}
+
+header, nav, main, aside, footer{
+    background-color: blue;
+    border: 1px solid black;
+}
+
+header{grid-area: header;}
+nav{grid-area: nav;}
+main{grid-area: main;}
+aside{grid-area: aside;}
+footer{grid-area: footer;}
