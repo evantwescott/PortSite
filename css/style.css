@@ -17,10 +17,42 @@ header, nav, main, aside, footer{
     background-color: blue;
     border: 1px solid black;
 }
-
+/* Pagewide Settings */
 body{background-color: white;}
+
+/* Header Settings */
 header{grid-area: header; background-color: #012a4a;}
-nav{grid-area: nav; background-color:#013a63}
+
+/* Navigation Settings */
+nav{grid-area: nav; background-color:#013a63; display: flex; align-content:space-between;}
+
+nav>ul{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-self:center;
+    list-style: none;
+
+}
+
+nav>ul>li{
+    /* padding: .25rem;
+    margin: .5rem; */
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: .25em;
+    margin: .5rem;
+}
+
+/* Main Section Settings */
 main{grid-area: main;  background-color:#2a6f97}
+
+/* Aside Section Settings */
+
 aside{grid-area: aside;  background-color:#2c7da0}
+/* Footer Section Settings */
+
 footer{grid-area: footer;  background-color: #a9d6e5}
