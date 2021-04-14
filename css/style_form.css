@@ -1,0 +1,28 @@
+fieldset{
+    border-color: tomato;
+    border-width: 10px;
+    border-style: groove;
+}
+
+fieldset>legend{
+    color: aqua;
+
+}
+
+p>label{
+    display: block;
+}
+
+input{
+    border-radius: 10px;
+    
+}
+
+input:valid{
+    border-color: green;
+}
+
+input, textarea:invalid{
+    border-color: red;
+    background-color: yellow;
+}
