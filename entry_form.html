@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Into the Breach | New Form</title>
 </head>
+
 <body>
     <h1>Contact Me</h1>
-   <form action="entry_form.html" method="POST">
-       <input type="hidden" name = "source" value="ContactForm">
-       Your Name: <input name="Full Name" type="text"><br/>
-       Your Email: <input name="EmailAddress" type="email"><br/>
-       Your Phone: <input type="phone" name="" id=""><br/>
-       Other Feedback:<textarea name="Feedback" id="" cols="30" rows="10"></textarea>
-       Date: <input type="date" name="" id="">
-       
-       <input type="submit" value="Submit">
-    </form> 
+    <form action="entry_form.html" method="POST">
+        <input type="hidden" name="source" value="ContactForm">
+        Your Name: <input name="Full Name" type="text"><br />
+        Your Email: <input name="EmailAddress" type="email"><br />
+        Your Phone: <input type="phone" name="" id=""><br />
+        Other Feedback:<textarea name="Feedback" id="" cols="30" rows="10"></textarea>
+        Date: <input type="date" name="" id="">
+        Severity Range <input type="range" min="1" max="100" name="Severity Range" id="">
+
+        Feedback Type: <select name="feedbackType" multiple="multiple">
+            <optgroup label="stores">
+                <option value="webstore">webstore</option>
+                <option value="store">store</option>
+            </optgroup>
+
+            <option value="other">other</option>
+        </select>
+        Ok to contact: <input:
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
+
 </html>
+
+<!-- Selection Options:
+List
+CHeckbox
+Radio
+SLider -->
