@@ -1,0 +1,35 @@
+Javascript Cheat Sheet
+IF Statements:
+
+if(statement){
+....
+}
+else if(statement){
+....
+}
+else{
+...
+}
+
+------------------------------
+Terniary Operator:
+
+
+let (IF STATEMENT) ? IF_TRUE : IF_FALSE;
+
+
+------------------------------
+For Loop Syntax:
+
+for(let i = 0; i < int; i++){
+........
+}
+
+
+------------------------------
+
+while loop syntax:
+
+while(statement){
+.........
+}
