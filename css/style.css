@@ -1,12 +1,14 @@
-html, body{
-    height: 150%;
-    background-color: #a9d6e5;
+@import url(https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+html{
+    height: 100%;
+    background-color: #cb997eff;
 }
 
 body{
     display: grid;
-    grid: "header" 2em
+    grid: "header" 4em
           "nav" 2em
           "main" 1fr
           "aside" .25fr
@@ -15,29 +17,108 @@ body{
     margin: 0%;
 }
 
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Permanent Marker', cursive;
+}
+
+p{
+    font-family: 'Architects Daughter', cursive;
+}
+
+
 /* Pagewide Settings */
-body{background-color: white;}
 
 /* Header Settings */
-header{grid-area: header; background-color: #012a4a;}
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
 
 /* Navigation Settings */
-nav{grid-area: nav; background-color:#013a63; display:flex; justify-content: center;}
+nav{
+    grid-area: nav;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
 
 nav>ul{
     display: flex;
     flex-direction: row;
     list-style: none;
+}
+
+nav>ul>li{
+    padding: 5px;
+}
+
+nav>ul>li>a, nav>ul>li>a:visited{
+    border:none;
+    outline:none;
+    text-decoration:none;
 
 }
 
-
 /* Main Section Settings */
-main{grid-area: main;  background-color:#2a6f97}
+main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Aside Section Settings */
 
-aside{grid-area: aside;  background-color:#2c7da0}
+aside{grid-area: aside;}
 /* Footer Section Settings */
 
-footer{grid-area: footer;  background-color: #89c2d9}
+footer{grid-area: footer;}
+
+.paper-background{
+        font: normal 12px/1.5 "Lucida Grande", arial, sans-serif;
+        /* width: 50%; */
+        height: 100%;
+        /* margin: 0 auto; */
+        /* padding: 6px 5px 4px 42px; */
+        /* position: relative; */
+        color: #444;
+        line-height: 20px;
+        /* border: 1px solid #d2d2d2; */
+        background: #fff;
+        background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        -webkit-background-size: 100% 20px;
+        -moz-background-size: 100% 20px;
+        -ms-background-size: 100% 20px;
+        -o-background-size: 100% 20px;
+        background-size: 100% 20px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+        /* width: 816px;
+        height: 1056px; */
+}
+
+
+.red-sticky-note{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 8px 6px -6px black ;
+    background-color: #ee6055ff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.yellow-sticky-note{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 8px 6px -6px black ;
+    background-color: #ffd97dff;
+}

@@ -1,0 +1,13 @@
+Idea for Portfolio Site:
+Todos 4/15/2021
+
+1. Pages look like blank pieces of lined paper. DONE
+2. Bullets look like sticky notes (with shadow and outline). DONE
+3. Add an "About" page outlining a CV/resume
+4. Create a projects page with mini-board that shows progress on epic/feature/PBI level
+5. Get a decent font that looks like handwriting, but not too artsy. DONE
+
+
+Todos 4/16/2021:
+1. Create an "About" Page that looks like a whiteboard
+2. Create a CV/Resume Page in LaTeX that translates to a webpage.
