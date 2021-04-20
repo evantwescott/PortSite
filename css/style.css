@@ -15,6 +15,7 @@ body{
           "footer" 4em/
           1fr;
     margin: 0%;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, a{
@@ -64,13 +65,16 @@ nav>ul>li>a, nav>ul>li>a:visited{
 main{
     grid-area: main;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    /* align-items: center; */
 }
 
 /* Aside Section Settings */
 
-aside{grid-area: aside;}
+aside{
+    grid-area: aside;
+}
 /* Footer Section Settings */
 
 footer{grid-area: footer;}
@@ -79,6 +83,7 @@ footer{grid-area: footer;}
         font: normal 12px/1.5 "Lucida Grande", arial, sans-serif;
         /* width: 50%; */
         height: 100%;
+        width: 100%;
         /* margin: 0 auto; */
         /* padding: 6px 5px 4px 42px; */
         /* position: relative; */
@@ -108,17 +113,28 @@ footer{grid-area: footer;}
 
 
 .red-sticky-note{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     box-shadow: 0 8px 6px -6px black ;
     background-color: #ee6055ff;
-    margin: 10px;
-    padding: 10px;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .yellow-sticky-note{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     box-shadow: 0 8px 6px -6px black ;
     background-color: #ffd97dff;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.long-yellow-sticky-note{
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 8px 6px -6px black ;
+    background-color: #ffd97dff;
+    margin: 1rem;
+    padding: 1rem;
 }
