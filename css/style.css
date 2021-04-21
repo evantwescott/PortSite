@@ -3,14 +3,14 @@
 
 html{
     height: 100%;
-    background-color: #cb997eff;
+    background-color: #b7b7a4ff;
 }
 
 body{
     display: grid;
     grid: "header" 4em
           "nav" 2em
-          "main" 1fr
+          "main" auto
           "aside" .25fr
           "footer" 4em/
           1fr;
@@ -20,6 +20,16 @@ body{
 
 h1, h2, h3, h4, h5, h6, a{
     font-family: 'Permanent Marker', cursive;
+}
+
+h1{
+    font-size: rem;
+    padding: .1em;
+    margin: .1em;
+}
+
+h2{
+    font-size: 1.75em;
 }
 
 p{
@@ -34,6 +44,7 @@ header{
     grid-area: header;
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 /* Navigation Settings */
@@ -58,6 +69,7 @@ nav>ul>li>a, nav>ul>li>a:visited{
     border:none;
     outline:none;
     text-decoration:none;
+    font-size: 1rem;
 
 }
 
