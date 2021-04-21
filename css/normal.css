@@ -38,6 +38,17 @@
 
     nav>ul{
         display: flex;
+        height: 50%;
         flex-direction: column;
+        align-content: space-between;
+    }
+
+    nav>ul>li>a, nav>ul>li>a:visited{
+        font-size: x-large;
+        text-decoration: none;
+    }
+
+    h1{
+        font-size: xx-large;
     }
 }
