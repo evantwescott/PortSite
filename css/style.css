@@ -80,7 +80,6 @@ nav>ul>li>a, nav>ul>li>a:visited{
     text-decoration:none;
     font-size: 1rem;
     color: black;
-
 }
 
 /* Main Section Settings */
@@ -155,6 +154,15 @@ footer{grid-area: footer;}
 .long-yellow-sticky-note{
     width: 300px;
     height: 150px;
+    box-shadow: 0 8px 6px -6px black ;
+    background-color: #ffd97dff;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.big-yellow-sticky{
+    width: fit-content;
+    height: fit-content;
     box-shadow: 0 8px 6px -6px black ;
     background-color: #ffd97dff;
     margin: 1rem;

@@ -46,7 +46,17 @@
     nav>ul>li>a, nav>ul>li>a:visited{
         font-size: x-large;
         text-decoration: none;
+        display: inline-block;
     }
+
+    nav>ul>li:hover{
+        text-shadow: 
+            -3px 0px 3px yellow,
+            3px 0px 3px yellow,
+            6px 0px 6px yellow,
+            -6px 0px 6px yellow;
+    }
+
 
     h1{
         font-size: xx-large;
